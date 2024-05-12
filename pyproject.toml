@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vaide-mock"
+version = "0.1.0"
+description = "A mock version of influencer marketing platform."
+authors = ["mvishiu11 <116217532+mvishiu11@users.noreply.github.com>"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.34.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
